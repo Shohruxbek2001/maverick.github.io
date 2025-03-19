@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Maverick</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Maverick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Wed, 19 Mar 2025 08:47:11 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Студент</title>
+      <link>http://localhost:1313/posts/main/</link>
+      <pubDate>Wed, 19 Mar 2025 08:47:11 +0300</pubDate>
+      <guid>http://localhost:1313/posts/main/</guid>
+      <description>Добро пожаловать в проект! Этот сайт создан с использованием Hugo и темы Terminal.&#xA;О проекте Этот проект разработан для демонстрации возможностей Hugo и кастомизации темы Terminal.&#xA;Название: Название проекта Описание: Краткое описание проекта Версия: 1.0.0 Автор: Бабаев Шохрухбек Установка Следуйте этим простым шагам, чтобы развернуть проект на вашем устройстве:&#xA;git clone https://github.com/your-repo.git cd your-repo hugo server </description>
+    </item>
+  </channel>
+</rss>
