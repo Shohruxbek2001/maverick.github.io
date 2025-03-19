@@ -4,39 +4,48 @@ date: 2025-03-19T08:47:11+03:00
 draft: false
 ---
 
-# Главная страница
+{{ define "main" }}
 
-## Добро пожаловать!
+<header>
+  <h1>Добро пожаловать в проект!</h1>
+  <p>Этот сайт создан с использованием Hugo и темы Terminal.</p>
+</header>
 
-Это главная страница вашего проекта. Здесь можно разместить основную информацию, описание и ссылки.
+<main>
+  <section>
+    <h2>О проекте</h2>
+    <p>Этот проект разработан для демонстрации возможностей Hugo и кастомизации темы Terminal.</p>
+    <ul>
+      <li><strong>Название:</strong> {{ .Site.Title }}</li>
+      <li><strong>Описание:</strong> {{ .Site.Params.description }}</li>
+      <li><strong>Версия:</strong> 1.0.0</li>
+      <li><strong>Автор:</strong> {{ .Site.Params.author }}</li>
+    </ul>
+  </section>
 
-## О проекте
-
-- **Название:** Ваш проект
-- **Описание:** Краткое описание проекта
-- **Версия:** 1.0.0
-- **Автор:** Ваше имя
-
-## Установка
-
-```sh
-# Клонировать репозиторий
+  <section>
+    <h2>Установка</h2>
+    <p>Следуйте этим простым шагам, чтобы развернуть проект на вашем устройстве:</p>
+    <pre><code>
 git clone https://github.com/your-repo.git
-
-# Перейти в папку проекта
 cd your-repo
+hugo server
+    </code></pre>
+  </section>
 
-# Установить зависимости
-npm install  # или pip install -r requirements.txt
-```
+  <section>
+    <h2>Использование</h2>
+    <p>Запустите локальный сервер для предпросмотра:</p>
+    <pre><code>
+hugo server
+    </code></pre>
+    <p>После этого откройте <a href="http://localhost:1313">http://localhost:1313</a> в браузере.</p>
+  </section>
+</main>
 
-## Использование
+<footer>
+  <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. Все права защищены.</p>
+  <p>Создано с ❤️ на Hugo.</p>
+</footer>
 
-```sh
-# Запуск проекта
-npm start  # или python main.py
-```
-
-## Лицензия
-
-Этот проект распространяется под лицензией MIT. Подробнее см. [LICENSE](LICENSE).
+{{ end }}
