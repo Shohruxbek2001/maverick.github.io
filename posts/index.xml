@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Maverick</title><link>https://example.org/posts/</link><description>Recent content in Posts on Maverick</description><generator>Hugo</generator><language>ru-ru</language><lastBuildDate>Wed, 19 Mar 2025 08:47:11 +0300</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Студент</title><link>https://example.org/posts/main/</link><pubDate>Wed, 19 Mar 2025 08:47:11 +0300</pubDate><guid>https://example.org/posts/main/</guid><description>&lt;h1 id="главная-страница">Главная страница&lt;/h1>
+&lt;h2 id="добро-пожаловать">Добро пожаловать!&lt;/h2>
+&lt;p>Это главная страница вашего проекта. Здесь можно разместить основную информацию, описание и ссылки.&lt;/p>
+&lt;h2 id="о-проекте">О проекте&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Название:&lt;/strong> ИТМО hugo project&lt;/li>
+&lt;li>&lt;strong>Описание:&lt;/strong> Краткое описание проекта.&lt;/li>
+&lt;li>&lt;strong>Версия:&lt;/strong> 1.0.0&lt;/li>
+&lt;li>&lt;strong>Автор:&lt;/strong> Бабаев Шохрухбек&lt;/li>
+&lt;/ul>
+&lt;h2 id="установка">Установка&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Клонировать репозиторий&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone https://github.com/your-repo.git
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Перейти в папку проекта&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd your-repo
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Установить зависимости&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>npm install &lt;span style="color:#75715e"># или pip install -r requirements.txt&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="использование">Использование&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Запуск проекта&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>npm start &lt;span style="color:#75715e"># или python main.py&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="лицензия">Лицензия&lt;/h2>
+&lt;p>Этот проект распространяется под лицензией MIT. Подробнее см. &lt;a href="LICENSE">LICENSE&lt;/a>.&lt;/p></description></item></channel></rss>
